@@ -1,0 +1,7 @@
+applications:
+  - name: token-vendor
+    instances: 1
+    host: token-vendor
+    memory: 100MB
+    command: node app.js
+    buildpack: nodejs_buildpack
